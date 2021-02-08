@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: orange;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #3B3131;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: White;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: orange;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>My Dream Holiday Destination </h1>
+  <p>Switzerland.</p>
+</div>
+
+<div class="topnav">
+  <a href="#">The Matterhorn</a>
+  <a href="#">Interlaken </a>
+  
+  <a href="#" style="float:right"> Exit </a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2> <a href='#'>The Matterhorn </a></h2>
+
+      
+      <div class="fakeimg" style="height:50px;"> Some Image of Matternhorn </div>
+
+
+      <img src="switzerland-matterhorn.JPG" alt="Matterhorn"width="275" height="200">
+
+      <img src="climatechange-matterhorn-dangerous_h.JPG" alt="Zermatt"width="275" height="200">
+
+      <img src="download.JPG" alt="Zermatt"width="275" height="200">
+
+
+
+      <p>About Matternhorn</p>
+      <p>The Matterhorn, Switzerland's iconic pointed peak is one of the highest mountains in the Alps. On the border with Italy, this legendary peak rises to 4,478 meters, and its four steep faces lie in the direction of the compass points. The first summiting in 1865 ended tragically when four climbers fell to their death during the descent. Today, thousands of experienced climbers come here each summer.</p>
+    </div>
+    <div class="card">
+      <h2>  <a href='#'> Interlaken </a> </h2>
+      
+      <div class="fakeimg" style="height:50px;">Some image Interlaken </div>
+
+      <img src="switzerland-interlaken-2.JPG" alt="Matterhorn"width="275" height="200">
+
+      <img src="download (1).JPG" alt="Matterhorn"width="275" height="200">
+
+      <img src="download (2).JPG" alt="Matterhorn"width="275" height="200">
+
+      <p> About Interlaken </p>
+      <p>Nestled between Lake Thun to the west and Lake Brienz to the east, Interlaken is one of Switzerland's most popular summer holiday resorts. In the center of town, Höhematte is a marvel of urban planning with 35 acres of open space. Flower gardens, hotels, and cafés surround the Höheweg, the main boulevard through here with breathtaking vistas of the mountains. The mighty peaks of the Eiger, Mönch, and Jungfrau tower above the town providing excellent opportunities for alpine adventures. Hiking, climbing, abseiling, and kayaking are prime pursuits.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2> <a href='#'>  About the place I will visit soon </a> </h2>
+      <div class="fakeimg" style="height:50px;"> Kashmir,Saint martin  </div>
+
+
+      <p> Kashmis one of dream destination. If everything goes by plan I will visit Saint Martin next month.  </p>
+    </div>
+    <div class="card">
+      <h3> <a href='#'> Some place that I have visited  </a> </h3>
+
+      <img src="download (3).JPG" alt="Cox's Bazar "width="175" height="150"> 
+
+      <img src="download (4).JPG" alt="Bichanakandi "width="175" height="150">
+
+
+    </div>
+    <div class="card">
+      <h3> <a href='#'> Follow Me </a></h3>
+      <p>  On Facebook, Instagram. If necessary you can contack me through Email.  </p> </div> 
+      <a href="mailto:hasanrakib739@gmail.com">Send email</a>
+      <br><a href="https://www.facebook.com/Rakib Hasan / "target="_blank">Facebook</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Thank you for visiting my page.</h2>
+</div>
+
+</body>
+</html>
